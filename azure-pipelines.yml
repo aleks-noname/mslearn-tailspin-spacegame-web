@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool: Azure Self-Hosted
 
 variables:
   buildConfiguration: 'Release'
